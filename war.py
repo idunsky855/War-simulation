@@ -145,12 +145,14 @@ if  __name__ == "__main__":
                     print(f'{player_one.name} does not have enough '+
                         f'cards to go to war! {player_two.name} Wins!!')
                     GAME_ON = False
+                    AT_WAR = False
                     break
 
                 elif len(player_two.all_cards) < 5:
                     print(f'{player_two.name} does not have enough ' +
                         f'cards to go to war! {player_one.name} Wins!!')
                     GAME_ON = False
+                    AT_WAR = False
                     break
 
                 else:
